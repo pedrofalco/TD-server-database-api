@@ -5,12 +5,14 @@
     "main": "index.js",
     "scripts": {
         "start": "node index.js",
-        "test": "nodemon index.js"
+        "test": "nodemon index.js",
+        "clear": "node remove.js"
     },
     "author": "Pedro Falco",
     "license": "MIT",
     "dependencies": {
         "express": "^4.18.2",
+        "nedb": "^1.8.0",
         "socket.io": "^2.0.1"
     },
     "nodemonConfig": {

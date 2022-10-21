@@ -1,7 +1,7 @@
 {
-    "name": "TD-server-socket.io",
+    "name": "TD-server-database-api",
     "version": "1.0.0",
-    "description": "A simple setup to create your own server that can be used for more complex apps // Un setup simple para crear tu propio server que sirva para hacer aplicaciones más complejas",
+    "description": "Un setup simple para crear tu propia base de datos y comunicarse con TouchDesigner // A simple setup to create your own database and communicate with TouchDesigner",
     "main": "index.js",
     "scripts": {
         "start": "node index.js",

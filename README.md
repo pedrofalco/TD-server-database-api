@@ -43,6 +43,10 @@ npm test
 ```
 > 💡 Nota: si no reinicias el servidor no verás los cambios.
 
+### pequeña hoja de ruta 📍
+
+- Agregar export de base de datos en formato `.csv`. 
+
 
 👋 *Si lo usas, si tenés algún tipo de feedback o problema, hacemelo llegar por favor :)*
 
@@ -84,6 +88,10 @@ npm start
 npm test
 ```
 > 💡 Note: if you don't restart the server you won't see any changes.
+
+### tiny roadmap 📍
+
+- Add database export in `.csv` format. 
 
 👋 *If you use it or if you have any feedback or problem, please let me know :)*
 

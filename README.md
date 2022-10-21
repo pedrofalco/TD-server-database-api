@@ -53,7 +53,7 @@ npm test
 Custom component to communicate a web application or a web server with [TouchDesigner](https://derivative.ca/download) via an [API](https://developer.mozilla.org/es/docs/Glossary/API) in order to store information in a simple database. For this purpose I used [express](https://expressjs.com/es/) and [nedb](https://www.npmjs.com/package/nedb).
 The component in this repository works to submit "GET" Requests or a "POST" Requests from TouchDesigner to the database and thus save or retrieve the stored objects. It's intended to be used with a web interface or only with TouchDesigner. One of its many uses can be to store messages sent by users, paths indicating an image stored on the computer or the data of an image encoded as base64.
 
-### 🚩 Quick Start with Node.js & npm
+### Quick Start with Node.js & npm 🚩
 
 To use this repository you'll need to download [Node.js](https://nodejs.org/es/).
 
@@ -64,7 +64,7 @@ To use this repository you'll need to download [Node.js](https://nodejs.org/es/)
 3. `npm start` to start the app.
 > 💡 Note: this will also create the `database.db` file that will serve as the database.
 
-### 🚏 Comments & commands
+### Comments & commands 🚏
 
 You can view the objects stored in the database on the browser:
 

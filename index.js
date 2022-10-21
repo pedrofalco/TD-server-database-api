@@ -13,7 +13,7 @@ app.use(express.json({
 const database = new Datastore('database.db');
 database.loadDatabase();
 
-//API POST
+//POST API ENDPOINT
 app.post('/api', (request, response) => {
 
     //REQUEST
@@ -28,8 +28,9 @@ app.post('/api', (request, response) => {
     response.json(data);
 });
 
-//API GET
+//GET API ENDPOINT
 app.get('/api', (request, response) => {
+    //DATABASE QUERY
     database.find({}, (err, data) => {
         if (err) {
             response.end();
